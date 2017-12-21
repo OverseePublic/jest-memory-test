@@ -11,7 +11,8 @@
     "jest": "^22.0.3"
   },
   "scripts": {
-    "test": "jest --silent --logHeapUsage"
+    "test": "jest --silent --logHeapUsage",
+    "test:i": "jest -i --silent --logHeapUsage"
   },
   "repository": {
     "type": "git",
