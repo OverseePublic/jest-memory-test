@@ -17,7 +17,8 @@
   },
   "scripts": {
     "test": "jest --silent --logHeapUsage",
-    "test:i": "jest -i --silent --logHeapUsage"
+    "test:i": "jest -i --silent --logHeapUsage",
+    "test:i-gc": "jest -i --logHeapUsage --setupTestFrameworkScriptFile=./forceClean.js"
   },
   "repository": {
     "type": "git",
